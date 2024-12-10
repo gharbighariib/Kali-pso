@@ -1,0 +1,85 @@
+/* This sets a default font and background for the whole page */
+body {
+    font-family: Arial, sans-serif; /* Use a clean, readable font */
+    background-color: #000000; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* This centers the content container and gives it some styling */
+.container {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 50px auto; /* Center the container horizontally and give it space from the top */
+    padding: 20px; /* Add space inside the container */
+    background-color: rgb(121, 121, 121); /* White background for contrast */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Light shadow around the container */
+    border-radius: 8px; /* Rounded corners for the container */
+}
+
+/* Style for the main heading (h1) */
+h1 {
+    color: #ffffff81; /* Dark gray for the text */
+    font-size: 2.5rem; /* Size of the text */
+    text-align: center; /* Center the heading text */
+}
+
+/* Style for the paragraph text */
+p {
+    font-size: 1.2rem; /* Slightly larger text for readability */
+    line-height: 1.6; /* Space between lines of text */
+    color: #ffffff; /* Lighter gray for the paragraph text */
+    text-align: center; /* Center align the paragraph text */
+}
+
+/* Styling the list */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align the list items */
+}
+
+ul li {
+    font-size: 1.2rem; /* Match font size with paragraphs */
+    color: #93b9b7; /* Slightly darker gray for list items */
+    padding: 5px 0; /* Add some space between list items */
+}
+
+/* Add some hover effect to list items (just for fun) */
+ul li:hover {
+    color: #00d5e4; /* Change the color when hovering over an item */
+    cursor: pointer; /* Change the cursor to indicate something interactive */
+}
+/* Navbar styling */
+.navbar {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Remove bullet points from the list */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make the list items display in a row without line breaks */
+.navbar ul li {
+    display: inline-block; /* Inline-block keeps them in a row without line breaks */
+    margin: 0 15px; /* Add space between the items */
+}
+
+/* Links inside the navbar */
+.navbar ul li a {
+    color: white; /* White text for the links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.2rem; /* Increase the font size */
+    padding: 5px 10px; /* Add padding inside the links */
+}
+
+/* Change link color when hovered */
+.navbar ul li a:hover {
+    background-color: #007bff; /* Blue background when hovered */
+    border-radius: 5px; /* Rounded corners */
+}
+
